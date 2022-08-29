@@ -100,7 +100,7 @@ var productsState = [
                   ${'<span>*</span>'.repeat(productsState[i].rates)}
                 </div>
                 <div class="product__price">R <span>${productsState[i].price}</span></div> 
-                  <button>+ ADD TO CART</button> 
+                <button onclick="addNae()">+ ADD TO CART</button> 
             </div>
       
       `
